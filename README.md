@@ -15,4 +15,4 @@ and they fall in sequential order.
 
 ## Hints
 
-* Substitute the <div> tags with appropriate tags, and adjust the CSS file to acoomodate the new tags.
+* Substitute the `<div>` tags with appropriate tags, and adjust the CSS file to acoomodate the new tags.
