@@ -21,7 +21,7 @@ and they fall in sequential order.
 ## Deployment
 
 * Website Link: https://meriem0319.github.io/challenge1/
-* Repository Link:
+* Repository Link: https://github.com/meriem0319/challenge1
 
 ## Screenshot
 
