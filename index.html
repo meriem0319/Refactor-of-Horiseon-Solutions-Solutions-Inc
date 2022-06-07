@@ -6,27 +6,30 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
-
+<!-- Deleted the many div tags and changed to a body and header tag -->
 <body>
  <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
+<!-- Deleted the div and lists tags and added a nav tag instead and anchors         -->
             <nav>
                 <a href="#search-engine-optimization">Search Engine Optimization</a>
                 <a href="#online-reputation-management">Online Reputation Management</a>
                 <a href="#social-media-marketing">Social Media Marketing</a>
             </nav>
-    
+ <!-- changed the div for the background pic to a section    -->
     <section class="hero"></section>
-    
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook with SEO Properties" width="200" height="300" class="float-left" />
+    <section class="content">
+        <!-- Added the id for search engine optimization  -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
+            <!-- Added alt attr to all img  -->
+            <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook with SEO Properties" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
+            <!-- Added alt attr to all img  -->
             <img src="./assets/images/online-reputation-management.jpg" alt="Laptop with Chart Data" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -34,38 +37,45 @@
             </p>
         </div>
         <div id="social-media-marketing" class="social-media-marketing">
+            <!-- Added alt attr to all img  -->
             <img src="./assets/images/social-media-marketing.jpg" alt="Table with Social Media Logos" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+    </section>
+    <!-- Changed from div tag to aside tag -->
+    <aside class="benefits">
+        <div class="benefit-position">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="" />
+            <!-- Added alt attr to all img  -->
+            <img src="./assets/images/lead-generation.png" alt="Wheel turning into money" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit-position">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <!-- Added alt attr to all img  -->
+            <img src="./assets/images/brand-awareness.png" alt="Lightbulb" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit-position">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <!-- Added alt attr to all img  -->
+            <img src="./assets/images/cost-management.png" alt="Wheel and dollar signs"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    </aside>
  </header>
+ <!-- Changed from div to a footer tag  -->
  <footer>
+<!-- Changed from h2 to h4   -->
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.

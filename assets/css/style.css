@@ -25,12 +25,15 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Combined and changed the selectors for the nav bar  */
 nav {
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
     float: right;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 a {
@@ -79,53 +82,44 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated 3 benefit brand,cost,lead to one class */
+
+.benefit-position {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Deleted class benefit brand  */
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-lead h3 {
+/* Deleted class benefit cost  */
+
+
+/* Consolidated 3 classes of h3 to 1 class of h3  */
+
+.benefit-position h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* Deleted class benefit brand h3  */ 
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-lead img {
+/* Deleted class benefit cost h3  */
+
+/* Consolidated 3 classes of benefit into 1 class */
+
+.benefit-position img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Deleted class benefit brand img  */
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+
+/* Deleted class benefit brand img  */
+
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -181,6 +175,7 @@ p {
     font-size: 36px;
 }
 
+/* Changed to footer selector  */
 footer {
     padding: 30px;
     clear: both;
@@ -188,6 +183,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* Changed to footer selector  */
+footer h4 {
     font-size: 20px;
 }
