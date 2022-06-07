@@ -26,3 +26,6 @@ and they fall in sequential order.
 ## Screenshot
 
 <img src="./assets/images/meriem0319.github.io_challenge1_.png"/>
+
+## Author
+* Meriem Powell meriem0319/meriem0319
