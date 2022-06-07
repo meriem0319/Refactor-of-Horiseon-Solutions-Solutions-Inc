@@ -15,5 +15,14 @@ and they fall in sequential order.
 
 ## Fixing HTML and CSS files
 
-* Substitute the overwhelming number of `<div>` tags with appropriate tags, and adjust the CSS file to acoomodate the new tags if/when needed.
+* Substituted the overwhelming number of `<div>` tags with appropriate tags, and adjusted the CSS file to acoomodate the new tags if/when needed.
 * Consolidated a lot of the CSS classes and IDs into one class to limit redundant repeating of classes/IDs
+
+## Deployment
+
+* Website Link: https://meriem0319.github.io/challenge1/
+* Repository Link:
+
+## Screenshot
+
+<img src="./assets/images/meriem0319.github.io_challenge1_.png"/>
